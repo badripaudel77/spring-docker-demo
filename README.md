@@ -32,5 +32,7 @@
 
 - It can also be pulled using command _**docker pull badripaudel77/hello-java-docker:latest**_
 
+- And run to see if it's working just run the command _**>docker run -p 8080:8080 badripaudel77/hello-java-docker:latest**_ you should see the same output as before but this time pulling image from docker hub that we created and published. 
+
 ### Cheers !!! we've created docker file, build image, run image locally, pushed it to the docker hub and finally pulled image from remote docker hub repository.
 
