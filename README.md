@@ -7,11 +7,11 @@
 
 - Now write docker file with what each instruction tells about in **[Dockerfile](https://github.com/badripaudel77/spring-docker-demo/blob/main/Dockerfile)** located at the **root directory** of the project.
 
-- Now build the docker image using following command _**docker build --tag spring-docker-world .**_ here spring-docker-world is the name I've use, you can use your own name
+- Now build the docker image using following command _**docker build --tag spring-docker-world .**_ here spring-docker-world is the name I've used, you can use your own name
 
-- Now Image is built, it's time to run the using the container, the command looks like _**docker run -d -p 8080:8080 spring-docker-world**_
+- Image is built, it's time to run the using the container, the command looks like _**docker run -d -p 8080:8080 spring-docker-world**_
 
-- Now if you don't get any error, your application is running on the docker container and not on the local machine, to confirm this type localhost:8080 in the browser and you'll see the simple message which has been written in **[SpringDockerAppApplication.java](https://github.com/badripaudel77/spring-docker-demo/blob/main/src/main/java/com/io/docker/spring/springdockerapp/SpringDockerAppApplication.java)** file.
+- At this moment if you don't get any error, your application is running on the docker container and not on the local machine, to confirm this type localhost:8080 in the browser and you'll see the simple message which has been written in **[SpringDockerAppApplication.java](https://github.com/badripaudel77/spring-docker-demo/blob/main/src/main/java/com/io/docker/spring/springdockerapp/SpringDockerAppApplication.java)** file.
 
 - Reference can be found at [Docker Official Website](https://docs.docker.com/language/java/build-images/)
 
@@ -21,9 +21,9 @@
 
 - Create account at docker hub [Docker Hub](https://hub.docker.com/)
 
-- Noww Create the repository 
+- Create the repository 
 
-- Now we need to create the tagname for our unofficial image by running the following command, _**docker tag spring-docker-world:latest badripaudel77/hello-java-docker:latest
+- Here we need to create the tagname for our unofficial image by running the following command, _**docker tag spring-docker-world:latest badripaudel77/hello-java-docker:latest
 **_ here, badripaudel77 is my dockerhub username and  hello-java-docker:latest is the image name and tagname respectively in docker hub while spring-docker-world is the local image name, username will be different for you and rest can be same or different.
 
 - Now  push to docker hub using the following command, _**docker push badripaudel77/hello-java-docker:latest**_
