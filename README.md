@@ -15,3 +15,22 @@
 
 - Reference can be found at [Docker Official Website](https://docs.docker.com/language/java/build-images/)
 
+------------------------------------------------------------------------------------------------------------
+
+## Pushing docker image to docker hub 
+
+- Create account at docker hub [Docker Hub](https://hub.docker.com/)
+
+- Noww Create the repository 
+
+- Now we need to create the tagname for our unofficial image by running the following command, _**docker tag spring-docker-world:latest badripaudel77/hello-java-docker:latest
+**_ here, badripaudel77 is my dockerhub username and  hello-java-docker:latest is the image name and tagname respectively in docker hub while spring-docker-world is the local image name, username will be different for you and rest can be same or different.
+
+- Now  push to docker hub using the following command, _**docker push badripaudel77/hello-java-docker:latest**_
+
+- After a while it will be pushed to docker hub which you can see at [Very First and the simplest Spring-Docker app](https://hub.docker.com/repository/docker/badripaudel77/hello-java-docker)
+
+- It can also be pulled using command _**docker pull badripaudel77/hello-java-docker:latest**_
+
+### Cheers !!! we've created docker file, build image, run image locally, pushed it to the docker hub and finally pulled image from remote docker hub repository.
+
