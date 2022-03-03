@@ -7,7 +7,7 @@
 
 - Now write docker file with what each instruction tells about in **Dockerfile** located at the **root directory** of the project.
 
-- Now build the docker image using following command _**docker build --tag spring-docker-world .**_, here spring-docker-world is the name I've use, you can use your own name
+- Now build the docker image using following command _**docker build --tag spring-docker-world .**_ here spring-docker-world is the name I've use, you can use your own name
 
 - Now Image is built, it's time to run the using the container, the command looks like _**docker run -d -p 8080:8080 spring-docker-world**_
 
