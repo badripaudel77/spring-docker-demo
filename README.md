@@ -13,7 +13,7 @@
 
 - At this moment if you don't get any error, your application is running on the docker container and not on the local machine, to confirm this type localhost:8080 in the browser and you'll see the simple message which has been written in **[SpringDockerAppApplication.java](https://github.com/badripaudel77/spring-docker-demo/blob/main/src/main/java/com/io/docker/spring/springdockerapp/SpringDockerAppApplication.java)** file.
 
-- Reference can be found at [Docker Official Website](https://docs.docker.com/language/java/build-images/)
+- Reference can be found at [Docker Official Website](https://docs.docker.com/language/java/build-images/) and [This tutorial](https://docker-curriculum.com/)
 
 ------------------------------------------------------------------------------------------------------------
 
