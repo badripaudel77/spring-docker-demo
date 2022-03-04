@@ -5,7 +5,7 @@
 ----------------------
 - First make sure that docker is installed on your machine, depending on the OS you're using, it can be downloaded from official documentation of Docker at [Docker Website](https://docs.docker.com/get-docker/)
 
-- Now write docker file with what each instruction tells about in **```[Dockerfile](https://github.com/badripaudel77/spring-docker-demo/blob/main/Dockerfile)```** located at the **root directory** of the project.
+- Now write docker file with what each instruction tells about in **[```Dockerfile```](https://github.com/badripaudel77/spring-docker-demo/blob/main/Dockerfile)** located at the **root directory** of the project.
 
 - Now build the docker image using following command  _**```docker build --tag spring-docker-world .```**_ here spring-docker-world is the name I've used, you can use your own name and remember there is space and a . (dot)
 
