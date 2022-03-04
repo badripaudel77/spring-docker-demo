@@ -1,7 +1,7 @@
 # spring-docker-demo
 ## Writing docker file for spring boot and running it in container using docker image.
 -----------------------------------------------------------------------------------
-## Steps to Run the app
+## Explanation
 ----------------------
 - First make sure that docker is installed on your machine, depending on the OS you're using, it can be downloaded from official documentation of Docker at [Docker Website](https://docs.docker.com/get-docker/)
 
