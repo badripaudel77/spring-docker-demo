@@ -7,7 +7,7 @@
 
 - Now write docker file with what each instruction tells about in **```[Dockerfile](https://github.com/badripaudel77/spring-docker-demo/blob/main/Dockerfile)```** located at the **root directory** of the project.
 
-- Now build the docker image using following command _**```docker build --tag spring-docker-world .```**_ here spring-docker-world is the name I've used, you can use your own name and remember there is space and a . (dot)
+- Now build the docker image using following command  _**```docker build --tag spring-docker-world .```**_ here spring-docker-world is the name I've used, you can use your own name and remember there is space and a . (dot)
 
 - Image is built, it's time to run the using the container, the command looks like _**```docker run -d -p 8080:8080 spring-docker-world```**_
 
@@ -23,8 +23,7 @@
 
 - Create the repository 
 
-- Here we need to create the tagname for our unofficial image by running the following command, _**```docker tag spring-docker-world:latest badripaudel77/hello-java-docker:latest```
-**_ here, ```badripaudel77``` is my dockerhub username and  ```hello-java-docker:latest``` is the image name and tagname respectively in docker hub while spring-docker-world is the local image name, username will be different for you and rest can be same or different.
+- Here we need to create the tagname for our unofficial image by running the following command, _**```docker tag spring-docker-world:latest badripaudel77/hello-java-docker:latest```**_ here, ```badripaudel77``` is my dockerhub username and  ```hello-java-docker:latest``` is the image name and tagname respectively in docker hub while spring-docker-world is the local image name, username will be different for you and rest can be same or different.
 
 - Now  push to docker hub using the following command, _**```docker push badripaudel77/hello-java-docker:latest```**_
 
