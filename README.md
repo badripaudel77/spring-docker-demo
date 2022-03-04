@@ -1,5 +1,5 @@
 # spring-docker-demo
-## Writing docker file for spring boot and running it in container using docker image.
+## Writing docker file for spring boot and running it in container using docker image, pushing and pulling to/from docker hub. 
 -----------------------------------------------------------------------------------
 ## Explanation
 ----------------------
