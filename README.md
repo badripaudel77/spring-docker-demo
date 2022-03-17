@@ -1,6 +1,8 @@
 # spring-docker-demo
 ## Writing docker file for spring boot and running it in container using docker image, pushing and pulling to/from docker hub. 
 -----------------------------------------------------------------------------------
+
+#### For detail explanation of how to dockerize simple spring boot Java application, you can follow my website at [Coding Guides ](https://guidestocode.com/java/how-to-dockerize-java-spring-boot-application/#Overview_and_Introduction_to_Docker)
 ## Explanation
 ----------------------
 - First make sure that docker is installed on your machine, depending on the OS you're using, it can be downloaded from official documentation of Docker at [Docker Website](https://docs.docker.com/get-docker/)
